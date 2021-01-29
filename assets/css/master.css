@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  color: #33475B;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+body{
+  height: 200vh;
+}
+
+/* utility */
+.container{
+  width: 69vw;
+  margin: 0 auto;
+}
+
+/* float */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+[class^='col']{
+  float: left;
+  padding: 0 15px;
+}
+
+.flt-dx{
+  float: right;
+  padding: 0 15px;
+}
+
+.row{
+  margin: 0 -15px;
+}
+/* f-float */
+
+.mt-1{
+  margin-top: 1em;
+}
+
+.btn-pink{
+  background-color: #FE775A;
+  color: #ffffff;
+}
+
+.btn-hub:after{
+  content: "GetHubspotFree";
+}
+
+select{
+  border: none;
+}
+
+/* f-utility */
+
+/* header */
+/* header riga 1 */
+
+/* f-header riga 1 */
+/* f-header */
