@@ -12,7 +12,7 @@ p, span, a, select, i{
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 body{
@@ -60,7 +60,8 @@ body{
 }
 
 [class^='btn']{
-  border-radius: 3px;
+  border-radius: 4px;
+  font-size: 11px;
 }
 
 .btn-pink{
@@ -69,7 +70,7 @@ body{
 }
 
 .btn-hub{
-  padding: 17px 30px;
+  padding: 13px 33px;
 }
 
 .btn-hub:after{
@@ -79,14 +80,21 @@ body{
 select{
   border: none;
 }
-
 /* f-utility */
+
 
 /* header */
 .login, .logo-nav{
   height: 65px;
   line-height: 65px;
 }
+
+.login .flt-dx *, nav .flt-dx *{
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+
 /* header riga1 login */
 #fixed1{
   position: fixed;
@@ -123,7 +131,7 @@ select{
 }
 
 header .login [class^='btn']{
-  padding: 7px 7px;
+  padding: 8px 9px;
 }
 
 .btn-login{
@@ -134,8 +142,8 @@ header .login [class^='btn']{
 .login .flt-dx i{
   color: #01A6BE;
 }
-
 /* f-header riga1 login*/
+
 
 /* header riga2 nav */
 header img{
@@ -148,15 +156,16 @@ nav select{
 }
 /* f-header riga2 nav */
 
-.login .flt-dx *, nav .flt-dx *{
-  margin-left: 15px;
-  vertical-align: middle;
-}
 
 /* header jumbo */
 .jumbo{
-  background-color: cyan;
-  padding: 45px 0 100px 0;
+  background-image: url("../img/jumbotron.png");
+  background-color: #FFF4EF;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right bottom;
+  padding: 45px 0 142px 0;
+  position: relative;
 }
 
 .jumbo *{
@@ -174,6 +183,17 @@ nav select{
 
 .jumbo span{
   display: block;
+  font-size: 10px;
+}
+
+.jumbo-bottom{
+  position: absolute;
+  bottom: -19px;
+  height: 65px;
+  width: 100%;
+  background-color: #AFEBE4;
+  border-top: 2px solid #33475B;
+  border-bottom: 2px solid #33475B;
 }
 /* f-header jumbo */
 
