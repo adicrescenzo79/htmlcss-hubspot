@@ -5,9 +5,14 @@
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Roboto', sans-serif;
   color: #33475B;
+  z-index: 0;
+}
+
+p, span, a, select, i{
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 body{
@@ -20,7 +25,7 @@ body{
   margin: 0 auto;
 }
 
-/* float */
+/* utility float */
 .row:after{
   content: "";
   display: table;
@@ -40,15 +45,31 @@ body{
 .row{
   margin: 0 -15px;
 }
-/* f-float */
+
+.col-52{
+  width: 52%
+}
+
+.col-50{
+  width: 50%;
+}
+/* f-utility float */
 
 .mt-1{
   margin-top: 1em;
 }
 
+[class^='btn']{
+  border-radius: 3px;
+}
+
 .btn-pink{
   background-color: #FE775A;
   color: #ffffff;
+}
+
+.btn-hub{
+  padding: 17px 30px;
 }
 
 .btn-hub:after{
@@ -62,7 +83,99 @@ select{
 /* f-utility */
 
 /* header */
-/* header riga 1 */
+.login, .logo-nav{
+  height: 65px;
+  line-height: 65px;
+}
+/* header riga1 login */
+#fixed1{
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  z-index: 500;
+  height: 65px;
+  width: 100vw;
+}
 
-/* f-header riga 1 */
+#fixed2{
+  position: fixed;
+  top: 65px;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+}
+
+#spaceup{
+  height: 65px;
+  width: 98vw;
+}
+
+.login select{
+  margin-left: -2px;
+}
+
+.login .col a{
+  border-left: 1px solid #33475B;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+
+header .login [class^='btn']{
+  padding: 7px 7px;
+}
+
+.btn-login{
+  border: 1px solid #FE775A;
+  color: #FE775A;
+}
+
+.login .flt-dx i{
+  color: #01A6BE;
+}
+
+/* f-header riga1 login*/
+
+/* header riga2 nav */
+header img{
+  width: 85px;
+  vertical-align: middle;
+}
+
+nav select{
+  padding-right: 10px;
+}
+/* f-header riga2 nav */
+
+.login .flt-dx *, nav .flt-dx *{
+  margin-left: 15px;
+  vertical-align: middle;
+}
+
+/* header jumbo */
+.jumbo{
+  background-color: cyan;
+  padding: 45px 0 100px 0;
+}
+
+.jumbo *{
+  margin-bottom: 20px;
+}
+
+.jumbo h1{
+  font-size: 43px;
+  font-weight: 800;
+}
+
+.jumbo a{
+  display: inline-block;
+}
+
+.jumbo span{
+  display: block;
+}
+/* f-header jumbo */
+
+
 /* f-header */
