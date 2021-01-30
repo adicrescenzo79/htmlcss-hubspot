@@ -109,8 +109,8 @@ h2{
 
 .bord-grey{
   border-radius: 5px;
-  border: 1px solid #E9EFE4;
-  box-shadow: 1px 1px 5px grey;
+  /* border: 1px solid #E9EFF4; */
+  box-shadow: 1px 1px 10px 2px #dce7f2;
 }
 /* f-utility */
 
