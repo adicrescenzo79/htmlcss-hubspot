@@ -67,12 +67,22 @@ body{
   margin: 0 auto;
 }
 
+.mt-05{
+  margin-top: 0.5em;
+
+
+}
+
 .mt-1{
   margin-top: 1em;
 }
 
 .mt-2{
   margin-top: 2em;
+}
+
+.mt-15{
+  margin-top: 1.5em;
 }
 
 [class^='btn']{
@@ -321,11 +331,6 @@ nav select{
 /* f-main CRM */
 
 /* main tris */
-/* .tris .col-33 *:first-child{
-  width: 300px;
-  height: 300px;
-} */
-
 .tris .col-33:first-child{
   padding-left: 0;
 }
@@ -343,6 +348,7 @@ nav select{
   width: 215px;
   padding: 20px 0;
 }
+
 .tris img{
   width: 75px;
 }
@@ -362,6 +368,7 @@ nav select{
 .tris h4{
   margin: 25px 0 20px;
 }
+
 .tris .list{
   text-align: left;
 }
@@ -377,9 +384,48 @@ nav select{
 .tris .btn-learn{
   margin-top: 40px;
 }
-/* .tris .list i, .tris .list span{
-  margin-bottom: -5px;
-} */
 /* f-main tris */
+
+
+
+/* main fade */
+.fade *{
+  color: #ffffff;
+}
+
+.fade{
+  background-color: #00AAB8;
+  background-image: linear-gradient(to right, #00AAB8 , #00BBA8);
+}
+
+.fade .table .col-25{
+  vertical-align: middle;
+  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  padding: 1em 0;
+}
+
+.fade .table h2{
+  font-size: 35px;
+}
+
+.fade .table h2:after{
+  content: "+";
+  font-weight: normal;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.fade .table img{
+  width: 35px;
+}
+
+.fade .table span{
+  font-size: 10px;
+  display: block;
+}
+
+/* f-main fade */
 
 /* f-main */
