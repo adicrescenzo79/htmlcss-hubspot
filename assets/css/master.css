@@ -432,7 +432,37 @@ nav select{
   font-size: 10px;
   display: block;
 }
-
 /* f-main fade */
+
+
+/* main customers */
+.customers{
+  width: 59vw;
+  margin: 0 auto;
+}
+
+.customers .col{
+  width: 200px;
+}
+
+.customers .col h1{
+  font-size: 38px;
+}
+
+.customers .flt-dx{
+  width: 520px;
+}
+
+.customers .flt-dx .col-25{
+  text-align: right;
+  vertical-align: middle;
+  padding: 0 0;
+}
+
+.customers .flt-dx img{
+  max-height: 80%;
+  max-width: 80%
+}
+/* f-main customers */
 
 /* f-main */
