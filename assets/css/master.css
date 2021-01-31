@@ -16,7 +16,7 @@ p, span, a, select, i{
 }
 
 body{
-  height: 200vh;
+  height: 500vh;
 }
 
 /* utility */
@@ -56,6 +56,10 @@ body{
 .col-33{
   width: calc(100% / 3);
 }
+
+.col-25{
+  width: 25%;
+}
 /* f-utility float */
 
 .container{
@@ -74,6 +78,7 @@ body{
 [class^='btn']{
   border-radius: 4px;
   font-size: 11px;
+  display: inline-block;
 }
 
 .btn-pink{
@@ -119,10 +124,19 @@ h3{
 h4{
   font-size: 15px;
   font-weight: 800;
+  text-transform: uppercase;
+}
+
+.left{
+  text-align: left;
 }
 
 .center{
   text-align: center;
+}
+
+.right{
+  text-align: right;
 }
 
 .bord-grey{
@@ -132,6 +146,10 @@ h4{
 
 .fa-check-circle{
   color: #FE775A;
+}
+
+.icon{
+  width: 100px;
 }
 
 /* f-utility */
@@ -230,10 +248,6 @@ nav select{
   width: 500px;
 }
 
-.jumbo a{
-  display: inline-block;
-}
-
 .jumbo span{
   display: block;
   font-size: 10px;
@@ -254,9 +268,6 @@ nav select{
 
 /* main */
 /* main power */
-.power img{
-  width: 200px;
-}
 
 .power p{
   display: inline-block;
@@ -275,14 +286,8 @@ nav select{
 }
 
 .crm img{
-  width: 100px;
   margin-bottom: 27px;
 }
-
-.crm a{
-  display: inline-block;
-}
-
 
 .crm .col-66{
   text-align: left;
@@ -313,7 +318,68 @@ nav select{
 .crm .col-66 span{
   margin-right: 15px;
 }
-
 /* f-main CRM */
+
+/* main tris */
+/* .tris .col-33 *:first-child{
+  width: 300px;
+  height: 300px;
+} */
+
+.tris .col-33:first-child{
+  padding-left: 0;
+}
+
+.tris .col-33:last-child{
+  padding-right: 0;
+}
+
+.tris .col-33{
+  padding: 0 25px;
+}
+
+.tris .bord-grey > div:first-child{
+  margin: 0 auto;
+  width: 215px;
+  padding: 20px 0;
+}
+.tris img{
+  width: 75px;
+}
+
+.sales img.special{
+  width: 95px;
+}
+
+.tris h3, .tris p{
+  margin-top: 17px;
+}
+
+.tris hr{
+  margin-top: 45px;
+}
+
+.tris h4{
+  margin: 25px 0 20px;
+}
+.tris .list{
+  text-align: left;
+}
+
+.tris .list .item{
+  margin-bottom: -10px;
+}
+
+.tris .list .item span{
+  margin-left: 6px;
+}
+
+.tris .btn-learn{
+  margin-top: 40px;
+}
+/* .tris .list i, .tris .list span{
+  margin-bottom: -5px;
+} */
+/* f-main tris */
 
 /* f-main */
