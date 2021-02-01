@@ -8,7 +8,7 @@
   z-index: 0;
 }
 
-p, span, a, select, i{
+p, span, a, select, i, li{
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
@@ -489,7 +489,41 @@ main .bg-speial{
 
 .grow .flt-dx img{
   height: 300px;
+  position: relative;
+  bottom: 10px;
 }
 /* f-main grow */
-
 /* f-main */
+
+
+/* footer */
+footer{
+  background-color: #33475B;
+  text-transform: capitalize;
+  }
+
+footer *{
+  color: #CBD6E2;
+}
+
+footer nav ul li:first-child{
+  font-weight: bold;
+  color: #ffffff;
+  margin: 2em 0 1.5em;
+}
+
+footer nav ul li{
+  list-style: none;
+  margin-top: 0.5em;
+}
+
+footer nav ul .btn-white{
+  background-color: #CBD6E2;
+  color: #33475B;
+  padding: 5px 5px;
+}
+
+footer nav ul i{
+  margin-right: 17px;
+}
+/* f-footer */
