@@ -213,7 +213,7 @@ h4{
 }
 
 header .login [class^='btn']{
-  padding: 8px 9px;
+  padding: 3px 9px;
 }
 
 .btn-login{
@@ -277,7 +277,14 @@ nav select{
 
 
 /* main */
+main .bg-speial{
+  background-color: #EAEFF5;
+}
+
 /* main power */
+.power > .col-100 > img{
+  height: 150px;
+}
 
 .power p{
   display: inline-block;
@@ -464,5 +471,25 @@ nav select{
   max-width: 80%
 }
 /* f-main customers */
+
+
+/* main grow */
+.grow .col{
+  width: 386px;
+}
+
+.grow h2, .grow p, .grow a{
+  margin-bottom: 25px;
+}
+
+.grow span{
+  display: inline-block;
+  font-size: 10px;
+}
+
+.grow .flt-dx img{
+  height: 300px;
+}
+/* f-main grow */
 
 /* f-main */
