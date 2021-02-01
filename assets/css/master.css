@@ -501,6 +501,7 @@ main .bg-speial{
 footer{
   background-color: #33475B;
   text-transform: capitalize;
+  padding-bottom: 2em;
   }
 
 footer *{
@@ -530,6 +531,8 @@ footer nav ul i{
 }
 /* f-footer nav */
 
+
+/* footer lang */
 footer .lang{
   border-bottom: 1px solid #CBD6E2;
   padding-bottom: 1em;
@@ -540,7 +543,9 @@ footer .lang ul li{
   display: inline-block;
   margin-right: 15px;
 }
+/* f-footer lang */
 
+/* footer end */
 footer .end img{
   height: 25px;
 }
@@ -558,7 +563,5 @@ footer .end .flt-dx{
 footer .end .flt-dx a{
   margin-left: 20px;
 }
+/* f- footer end */
 /* f-footer */
-footer{
-  height: 496px;
-}
