@@ -115,6 +115,8 @@ p, span, a, select, i, li{
 
 select{
   border: none;
+  background-color: #ffffff;
+  outline: none;
 }
 
 h1{
@@ -293,6 +295,7 @@ main .bg-speial{
 }
 /* f-main power */
 
+
 /* main CRM */
 .crm .pop{
   margin: 53px 0;
@@ -337,6 +340,7 @@ main .bg-speial{
   margin-right: 15px;
 }
 /* f-main CRM */
+
 
 /* main tris */
 .tris .col-33:first-child{
@@ -393,7 +397,6 @@ main .bg-speial{
   margin-top: 40px;
 }
 /* f-main tris */
-
 
 
 /* main fade */
@@ -544,6 +547,7 @@ footer .lang ul li{
   margin-right: 15px;
 }
 /* f-footer lang */
+
 
 /* footer end */
 footer .end img{
